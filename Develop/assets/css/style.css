@@ -52,7 +52,9 @@ p {
 }
 
 #hero {
-    height: 800px;
+    /* There was a specified height here, but it caused the image to distort at full screen, so 
+    I deleted it. I'm sure there is a flexbox solution, but I don't know that I'll find it before this
+    project is due.*/
     width: 100%;
     margin-bottom: 25px;
 }
